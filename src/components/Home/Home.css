@@ -1,0 +1,55 @@
+.Home {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+}
+
+.Home h1 {
+    animation: fadeInLeft 1s ease-in;
+}
+.Home p {
+    font-size: 1.5rem;
+    animation: fadeInRight 1s ease-in;
+}
+.btn-temp {
+    padding: 5px;
+    background-color: #ffff;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+

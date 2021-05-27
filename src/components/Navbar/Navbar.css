@@ -1,0 +1,25 @@
+nav h1 {
+    font-weight: 400;
+}
+nav ul {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 1.2rem;
+}
+.btn {
+    background-color: #ffff;
+    color: #343a40;
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+
+.btn:hover {
+ background-color: #343a40;
+ color: #ffff !important;
+}
